@@ -1,0 +1,42 @@
+{
+	"Name": "VXE Mouse Battery",
+	"Version": "1.0.0.0",
+	"Author": "Mekokoko",
+	"Actions": [
+		{
+			"Name": "Battery",
+			"UUID": "com.mekokoko.vxebattery.status",
+			"Icon": "imgs/actions/battery/icon",
+			"Tooltip": "Show the VXE/ATK Dragonfly mouse battery percentage.",
+			"PropertyInspectorPath": "ui/battery.html",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/battery/key",
+					"TitleAlignment": "middle"
+				}
+			]
+		}
+	],
+	"Category": "VXE Mouse Battery",
+	"CategoryIcon": "imgs/plugin/category-icon",
+	"CodePath": "bin/plugin.js",
+	"Description": "Shows the battery percentage of a VXE/ATK Dragonfly (Compx) wireless mouse on a key, with a configurable refresh rate. No ATK V HUB required.",
+	"Icon": "imgs/plugin/marketplace",
+	"SDKVersion": 3,
+	"Software": {
+		"MinimumVersion": "7.1"
+	},
+	"OS": [
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Nodejs": {
+		"Version": "24"
+	},
+	"UUID": "com.mekokoko.vxebattery"
+}

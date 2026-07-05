@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+	<title>VXE Mouse Battery Settings</title>
+	<meta charset="utf-8" />
+	<script src="https://sdpi-components.dev/releases/v4/sdpi-components.js"></script>
+</head>
+
+<body>
+	<sdpi-item label="Refresh every">
+		<sdpi-select setting="interval" default="60">
+			<option value="10">10 seconds</option>
+			<option value="30">30 seconds</option>
+			<option value="60">1 minute</option>
+			<option value="120">2 minutes</option>
+			<option value="300">5 minutes</option>
+			<option value="600">10 minutes</option>
+		</sdpi-select>
+	</sdpi-item>
+	<p style="color:#9a9a9a;font-size:11px;margin:8px 12px;">
+		Reading the mouse wakes the dongle; a longer interval saves battery. Press the key to refresh now.
+	</p>
+</body>
+
+</html>
