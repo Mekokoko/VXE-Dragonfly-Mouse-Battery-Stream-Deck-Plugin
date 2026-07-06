@@ -1,6 +1,6 @@
 {
   "name": "vxe-mouse-battery",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shows VXE/ATK Dragonfly mouse battery on a Stream Deck key.",
   "type": "module",
   "scripts": {
